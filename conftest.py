@@ -5,16 +5,14 @@ from playwright.sync_api import sync_playwright
 # Global Control for headless or headed. Remember to keep it True before 'master' push
 # True: headless
 # Fale: headed
-mode = False
+mode = True
 
 @pytest.fixture(scope="session")
 def playwright_instance():
     with sync_playwright() as launcher:
         yield launcher
 
-#  , "firefox", "webkit"
-
-@pytest.fixture(scope="class", params=["chromium"])
+@pytest.fixture(scope="class", params=["chromium" , "firefox", "webkit"])
 def browser_context(playwright_instance, request):
 
     browser = getattr(playwright_instance, request.param).launch(
