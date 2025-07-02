@@ -17,3 +17,6 @@ This Repository contains the codebase as well as required packages etc. for a ro
 | pytest-playwright  | 0.7.0     |
 | pytest-xdist       | 3.6.1     |
 | urllib3            | 2.2.3     |
+
+> Reporters commonly used for playwright-python:
+- 
