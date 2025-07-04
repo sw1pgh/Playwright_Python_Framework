@@ -19,4 +19,6 @@ This Repository contains the codebase as well as required packages etc. for a ro
 | urllib3            | 2.2.3     |
 
 > Reporters commonly used for playwright-python:
+- Basic HTML Reporter
+- HTML1 Reporter
 - 
