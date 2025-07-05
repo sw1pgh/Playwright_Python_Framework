@@ -21,4 +21,4 @@ This Repository contains the codebase as well as required packages etc. for a ro
 > Reporters commonly used for playwright-python:
 - Basic HTML Reporter
 - HTML1 Reporter
-- 
+- Allure Reporter
