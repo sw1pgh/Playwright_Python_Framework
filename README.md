@@ -1,2 +1,15 @@
-# Playwright_Python_Framework
-This Repository will contain the codebase for a robust Page Object Model framework with Playwright.
+__[Playwright_Python_Framework]__
+
+This Repository contains the codebase as well as required packages etc. for a robust Page Object Model framework with Playwright.
+
+> Requried Packages
+
+| Package            | Version   |
+|--------------------|-----------|
+| greenlet           | 3.1.1     |
+| pip                | 25.0.1    |
+| playwright         | 1.50.0    |
+| pytest             | 8.3.3     |
+| pytest-base-url    | 2.1.0     |
+| pytest-playwright  | 0.7.0     |
+| urllib3            | 2.2.3     |
