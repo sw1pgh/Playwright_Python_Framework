@@ -4,4 +4,4 @@ class Google_HomePage_Locators:
     def __init__(self, page: Page):
         self.page = page
         self.google_image = page.locator("//*[name()='path' and contains(@d,'M115.75 47')]")
-        self.feeling_luck_btn = self.page.locator("div[class='FPdoLc lJ9FBc'] input[name='btnI']")
+        self.feeling_lucky_btn = self.page.locator("div[class='FPdoLc lJ9FBc'] input[name='btnI']")
