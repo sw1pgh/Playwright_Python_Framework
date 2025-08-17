@@ -18,3 +18,15 @@ class Google_HomePage_Methods:
     
         assert "google" in self.page.url
         assert self.homePage_locators.google_image.is_visible()
+        
+    def google_doodle_navigation(self):
+        page = self.page
+        
+        with page.expect_navigation(timeout = 30000):
+            self.homePage_locators.feeling_lucky_btn.click()
+            
+        page.wait_for_load_state()
+        page.wait_for_load_state(constants.loadstate)
+
+        assert "doodles" in page.url
+        
