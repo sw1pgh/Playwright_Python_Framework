@@ -15,4 +15,5 @@ This Repository contains the codebase as well as required packages etc. for a ro
 | pytest             | 8.3.3     |
 | pytest-base-url    | 2.1.0     |
 | pytest-playwright  | 0.7.0     |
+| pytest-xdist       | 3.6.1     |
 | urllib3            | 2.2.3     |
