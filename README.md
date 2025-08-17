@@ -3,7 +3,7 @@ __[Playwright_Python_Framework]__
 This Repository contains the codebase as well as required packages etc. for a robust Page Object Model framework with Playwright.
 > Test Cases covered:
 - Navigating to Google Homepage to assert the URL
--
+- Clicking on "I'm Feeling Lucky" button with expect navigation and look for correct redirection
 
 > Requried Packages
 
