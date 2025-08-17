@@ -1,6 +1,9 @@
 __[Playwright_Python_Framework]__
 
 This Repository contains the codebase as well as required packages etc. for a robust Page Object Model framework with Playwright.
+> Test Cases covered:
+- Navigating to Google Homepage to assert the URL
+-
 
 > Requried Packages
 
