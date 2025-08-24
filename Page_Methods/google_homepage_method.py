@@ -29,4 +29,4 @@ class Google_HomePage_Methods:
         page.wait_for_load_state(constants.loadstate)
 
         assert "doodles" in page.url
-        
+        assert self.homePage_locators.google_doodle_glue_header.is_visible()
