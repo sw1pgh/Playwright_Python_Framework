@@ -12,3 +12,7 @@ class Test_Google_HomePage_Assertions:
     def test_navigation_assertion(self):        
         self.page.wait_for_load_state(constants.loadstate)
         self.homePage_methods.basic_navigation()
+        
+    def test_google_doodle_navigation(self):
+        self.page.wait_for_load_state(constants.loadstate)
+        
